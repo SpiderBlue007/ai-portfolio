@@ -1,0 +1,1 @@
+print("Hello, Python! VSCode环境配置成功")
