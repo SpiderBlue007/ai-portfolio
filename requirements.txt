@@ -1,0 +1,13 @@
+# 依赖按周安装即可，不必一次装完（每周机房课前装当周那一两行）
+# 版本只给下限，实际以 pip 解析为准
+openai>=1.0
+requests
+ollama
+python-dotenv        # 让 .env 里的密钥能被 os.getenv 读到（Windows 必需）
+langchain
+langchain-community
+langchain-chroma
+langchain-ollama
+chromadb
+mcp[cli]
+streamlit
